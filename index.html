@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pet Adoption</title>
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1, h2, h3 {
+            color: #333;
+            text-align: center;
+        }
+
+        /* Header */
+        header {
+            background-color: #008080;
+            padding: 10px 0;
+            color: #fff;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            text-align: center;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+            color: #fff;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 36px;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        .hero .btn {
+            background-color: #ff7f50;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        /* Pets Section */
+        .pets {
+            background-color: #fff;
+            padding: 50px 0;
+        }
+
+        .pet-grid {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .pet-card {
+            background-color: #f2f2f2;
+            border-radius: 10px;
+            width: 30%;
+            padding: 20px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .pet-card img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .pet-card h3 {
+            margin: 15px 0 10px;
+        }
+
+        .pet-card p {
+            font-size: 14px;
+            color: #777;
+        }
+
+        .pet-card .btn {
+            background-color: #008080;
+            color: #fff;
+            padding: 10px;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 5px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Find Your Perfect Pet</h1>
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                   
+                    <li><a href="/aboutus.html">About Us</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Your new best friend is waiting!</h2>
+            <img src="https://plus.unsplash.com/premium_photo-1668114375111-e90b5e975df6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZG9ncyUyMHBsYXlpbmd8ZW58MHx8MHx8fDA%3D" alt="webimage">
+            <p>We have many loving pets ready to find their forever home. Adopt a pet today and make a difference!</p>
+            <a href="#" class="btn">Browse Pets</a>
+        </div>
+    </section>
+
+    <section class="pets">
+        <div class="container">
+            <h2>Available Pets</h2>
+            <div class="pet-grid">
+                <div class="pet-card">
+                    <img src="https://content.jdmagicbox.com/v2/comp/mumbai/r2/022pxx22.xx22.171127102109.v9r2/catalogue/siddharth-pet-care-andheri-east-mumbai-pet-shops-icqelreqkm.jpg" alt="Dog 1">
+                    <h3>Max</h3>
+                    
+                    <a href="#" class="btn">Adopt Me</a>
+                </div>
+
+                <div class="pet-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz2wCWcPCnCgM3DD-9qODz0CTIVM-agy61TQ&s" alt="Cat 1">
+                    <h3>Luna</h3>
+                    
+                    <a href="#" class="btn">Adopt Me</a>
+                </div>
+
+                <div class="pet-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT41Plsy-ie_c3QNhujodJAdixodynyUDST7A&s" alt="Rabbit 1">
+                    <h3>Snowball</h3>
+                    
+                    <a href="#" class="btn">Adopt Me</a>
+                </div>
+                <div class="pet-card">
+                    <img src="https://www.mrnmrspet.com/Files/72024/277025202407081715526437.jpg" alt="Rabbit 1">
+                    <h3>Chico</h3>
+                    
+                    <a href="#" class="btn">Adopt Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Pet Adoption. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

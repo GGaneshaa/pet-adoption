@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pet Adoption - Information & Contact</title>
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            color: #555;
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        /* Header */
+        header {
+            background-color: #008080;
+            padding: 10px 0;
+            color: #fff;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            text-align: center;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Information Section */
+        .info {
+            background-color: #fff;
+            padding: 50px 0;
+        }
+
+        .info p {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        /* Contact Section */
+        .contact {
+            background-color: #f2f2f2;
+            padding: 50px 0;
+        }
+
+        .contact form {
+            width: 80%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact input, .contact textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .contact button {
+            background-color: #008080;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact button:hover {
+            background-color: #005959;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Find Your Perfect Pet</h1>
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    
+                    <li><a href="/aboutus.html">About Us</a></li>
+                    
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Information Section -->
+    <section id="info" class="info">
+        <div class="container">
+            <h2>Information</h2>
+            <p>At our pet adoption center, we prioritize the health, safety, and well-being of all animals. Before adopting a pet, it’s important to understand the commitment and care required to ensure your new family member has a happy life. Our team is here to assist you in finding the perfect match for your household.</p>
+            <p>Each pet adopted through our center has been spayed or neutered, vaccinated, and microchipped. We also provide resources and guidance on how to take care of your new pet, including dietary needs, veterinary visits, and general care tips.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="#" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="text" name="subject" placeholder="Subject" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Pet Adoption. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
